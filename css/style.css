@@ -1,0 +1,33 @@
+
+
+body{
+	background: #E5FFFA;
+}
+h3{
+	margin: 15px;
+	font-size: 42px;
+	text-align: center;
+}
+div#memory_board{
+	background:#5D8AA8;
+	border:#999 7px solid;
+	border-style: groove; 
+	width:740px;
+	height: auto;
+	padding:24px;
+	margin:10px auto;
+	overflow: hidden;
+}
+div#memory_board > div{
+	background: #C19A6B url('../img/queMark.png') center no-repeat;
+	/*background-size: cover;*/
+	border:#000 1px solid;
+	width:61px;
+	height:61px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
